@@ -20,4 +20,6 @@ const Test = db.define('test', {
 	}
 });
 
+Test.belongsTo(Student);
+
 module.exports = Test;
